@@ -5,22 +5,39 @@ body {
 
 /*HEADER*/
 header {
-  height: 100px;
+  height: 90px;
   border: 1px orange dashed;
+  padding-top: 30px
 }
 header div .logo {
   display: inline-block;
-  border: 1px purple solid;
   float: left;
 }
 header img {
   float: left;
-  border: 1px purple solid;
+  margin-right: 5px;
+  padding-top: 3px;
+}
+header h2 {
+  font-family: Yellowtail;
+  font-size: 40px;
+  margin-left: -1px;
+}
+header h5 {
+  text-transform: uppercase;
+  font-family: Roboto Condensed;
+  font-size: 10px;
+  color: #515151;
 }
 header li .icon {
   float: right;
   display: inline-block;
-  border: 1px purple solid;
+  margin-right: -3px;
+  margin-top: 11px;
+  
+}
+header #rss {
+  margin-left: 8px;
 }
 
 
