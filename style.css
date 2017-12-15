@@ -5,25 +5,50 @@ body {
 
 /*HEADER*/
 header {
-  height: 100px;
-  border: 1px orange dashed;
+  height: 90px;
+  padding-top: 30px;
+  padding-bottom: 20px
 }
 header div .logo {
   display: inline-block;
-  border: 1px purple solid;
   float: left;
 }
 header img {
   float: left;
-  border: 1px purple solid;
+  margin-right: 5px;
+  padding-top: 3px;
+  margin-bottom: 27px;
+}
+header h2 {
+  font-family: Yellowtail;
+  font-size: 40px;
+  margin-left: -1px;
+}
+header h5 {
+  text-transform: uppercase;
+  font-family: Abel;
+  font-size: 10px;
+  color: #6d6d6d;
+  margin-left: 3px;
+  margin-top: -1px;
 }
 header li .icon {
   float: right;
   display: inline-block;
-  border: 1px purple solid;
+  margin-right: -3px;
+  margin-top: 11px;
 }
-
-
+header #rss {
+  margin-left: 8px;
+}
+header hr {
+  padding-top: 2px;
+  height: 8px;
+  border: 0px;
+  width: 900px;
+  background: url("lab-assets/hr-11.png");
+  /* using asset from https://codepen.io/ibrahimjabbari/pen/ozinB?editors=1100 */
+}
 /*MAIN*/
 @import url('https://fonts.googleapis.com/css?family=Anton');
 
@@ -45,8 +70,6 @@ main h4 {
 /*FOOTER*/
 footer {
   height: 100px;
-  width: 900px;
-  margin: 0 auto;
   text-align: center;
   font-family: Georgia, serif;
   font-size: 10px;
@@ -56,21 +79,19 @@ footer {
 footer div.footer-1 {
   display: inline-block;
   float: left;
-  width: 405px;
+  width: 423px;
   border-bottom: 1px #eaeaea solid;
-  margin-left: 20px;
   padding-top: 15px;
 }
 footer img {
   display: inline;
-  margin: 0px 5px 0px 10px;
+  margin: 0px 6px 0px 10px;
 }
 footer div.footer-2 {
   display: inline-block;
   float: right;
-  width: 405px;
+  width: 423px;
   border-bottom: 1px #eaeaea solid;
-  margin-right: 20px;
   padding-top: 15px;
 }
 footer p.footer-text{
