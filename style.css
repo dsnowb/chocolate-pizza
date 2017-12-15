@@ -25,7 +25,21 @@ header li .icon {
 
 
 /*MAIN*/
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
+main {
+  margin: 30px;
+}
+
+main h1 {
+  font-family: 'Anton';
+  font-size: 36px;
+}
+
+main h4 {
+  font-family: sans;
+  color: #888;
+}
 
 
 /*FOOTER*/
