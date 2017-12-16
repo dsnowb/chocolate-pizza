@@ -42,7 +42,7 @@ header li .icon {
 header #rss {
   margin-left: 8px;
 }
-header hr {
+hr {
   padding-top: 2px;
   height: 8px;
   border: 0px;
@@ -81,7 +81,6 @@ main #print h4 {
 }
 
 main #print img {
-  position: relative;
   bottom: 4px;
 }  
 
@@ -89,22 +88,32 @@ main p {
   margin: 30px 0;
   text-indent: 30px;
   color: #555;
-  font-size: 18px;
-  line-height: 20px;
-#ingredients {
+  font-size: 20px;
+  line-height: 25px;
+}
+main section {
   position: relative;
-  top: -262px;
-  left: 50px;
 }
 
-#ingredients>div:first-child {
+main #ingredients {
+  width: 900px;
+  height: 300px;
+  background-image: url('lab-assets/list-bg.png');
+  position: relative;
+  margin-bottom: 50px;
+}
+main #ingredients>div:first-child {
   width: 350px;
   float: left;
-  margin-right: 40px;
+  margin: 45px 40px 0px 50px;
+}
+main #ingredients>div:nth-child(2) {
+  float: left;
+  margin-top: 45px;
 }
 
-#ingredients div div {
-  margin-bottom: 13px;
+main #ingredients div div {
+  margin-bottom: 12px;
 }
 
 main label {
@@ -112,35 +121,39 @@ main label {
   color: #444;
 }
 
-input[type="checkbox"] {
+main input[type="checkbox"] {
   color: #888;
   background-color: #FFF0CF;
 }
 
-input[type="checkbox"]:checked + label {
+main input[type="checkbox"]:checked + label {
   text-decoration: line-through;
   color: #888;
 }
-
-figure {
+main hr {
+  margin-bottom: 30px;
+}
+main figure {
   float: left;
-  width: 600px;
+  width: 650px;
+  margin-bottom: 70px;
 }
 
-figure img {
+main figure img {
   float: left;
   margin-right: 20px;
-  
-figure h2 {
+}
+
+main figure h2 {
   font-size: 20px;
 }
 
-figure p {
+main figure p {
   margin: 5px 0;
   text-indent: 0px;
 }
 
-.button {
+main .button {
   text-align: center;
   padding: 20px 30px;
   background-color: #A6593D;
@@ -150,12 +163,17 @@ figure p {
   
 /*FOOTER*/
 footer {
+  clear: both;
   height: 100px;
   text-align: center;
   font-family: Georgia, serif;
   font-size: 10px;
   color: #c9c9c9;
   margin-top: 20px;
+}
+footer div.footer-1 {
+  display: inline-block;
+  float: left;
   width: 423px;
   border-bottom: 1px #eaeaea solid;
   padding-top: 15px;
@@ -170,4 +188,10 @@ footer div.footer-2 {
   width: 423px;
   border-bottom: 1px #eaeaea solid;
   padding-top: 15px;
+}
+footer p.footer-text{
+  margin-top: 25px;
+}
+footer p {
+  margin: 6px;
 }
